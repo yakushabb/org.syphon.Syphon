@@ -66,9 +66,9 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://github.com/syphon-org/syphon/releases/download/0.2.10/syphon.linux.x64.0.2.10.tar.gz",
+                    "url": "https://github.com/syphon-org/syphon/releases/download/0.2.11/syphon.linux.x64.0.2.11.tar.gz",
                     "dest": "syphon",
-                    "sha256": "382fbeaf6fad4bfbb17cfccd75572b52ffa244e1c6b7d7d0e79e9f76a994428d",
+                    "sha256": "d2aadd6aa3a31988641135362d73076f622856438740e1a05ba612cd44593206",
                     "x-checker-data": {
                         "type": "json",
                         "is-main-source": true,
