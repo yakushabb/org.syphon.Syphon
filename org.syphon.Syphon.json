@@ -54,7 +54,7 @@
             "build-commands": [
                 "mv syphon /app/syphon",
                 "chmod +x /app/syphon/syphon",
-                "install -Dm644 logo.png /app/share/icons/hicolor/scalable/apps/org.syphon.Syphon.png",
+                "install -Dm644 logo.svg /app/share/icons/hicolor/scalable/apps/org.syphon.Syphon.svg",
                 "mkdir -p /app/bin",
                 "ln -s /app/syphon/syphon /app/bin/syphon",
                 "install -Dm644 org.syphon.Syphon.desktop /app/share/applications/org.syphon.Syphon.desktop",
@@ -89,7 +89,7 @@
                 },
                 {
                     "type": "file",
-                    "path": "logo.png"
+                    "path": "logo.svg"
                 }
             ]
         }
