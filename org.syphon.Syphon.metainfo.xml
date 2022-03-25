@@ -28,6 +28,7 @@
   </screenshots>
   <launchable type="desktop-id">org.syphon.Syphon.desktop</launchable>
   <releases>
+    <release version="0.2.12" date="2022-03-25"/>
     <release version="0.2.11" date="2022-03-11"/>
   </releases>
   <content_rating type="oars-1.1">
