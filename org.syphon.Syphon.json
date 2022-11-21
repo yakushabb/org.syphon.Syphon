@@ -1,7 +1,7 @@
 {
     "app-id": "org.syphon.Syphon",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "42",
+    "runtime-version": "43",
     "sdk": "org.gnome.Sdk",
     "command": "syphon",
     "separate-locales": false,
@@ -49,7 +49,8 @@
             "name": "syphon",
             "buildsystem": "simple",
             "only-arches": [
-                "x86_64"
+                "x86_64",
+                "aarch64"
             ],
             "build-commands": [
                 "mv syphon /app/syphon",
@@ -77,6 +78,24 @@
                         "tag-query": ".tag_name",
                         "timestamp-query": ".published_at",
                         "url-query": ".assets[] | select(.name | test(\"^syphon.linux.*.x64.tar.gz\")) | .browser_download_url"
+                    }
+                },
+                {
+                    "type": "archive",
+                    "only-arches": [
+                        "aarch64"
+                    ],
+                    "url": "https://github.com/syphon-org/syphon/releases/download/0.2.14/syphon.linux.0.2.14.arm64.tar.gz",
+                    "dest": "syphon",
+                    "sha256": "7fb88a7ebf99f2df80f5ed2ba32bdc228e2d76bf532fee40e23eb1982b9d4d0c",
+                    "x-checker-data": {
+                        "type": "json",
+                        "is-main-source": true,
+                        "url": "https://api.github.com/repos/syphon-org/syphon/releases/latest",
+                        "version-query": ".tag_name",
+                        "tag-query": ".tag_name",
+                        "timestamp-query": ".published_at",
+                        "url-query": ".assets[] | select(.name | test(\"^syphon.linux.*.arm64.tar.gz\")) | .browser_download_url"
                     }
                 },
                 {
