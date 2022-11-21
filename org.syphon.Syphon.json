@@ -66,9 +66,9 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://github.com/syphon-org/syphon/releases/download/0.2.13/syphon.linux.x64.0.2.13.tar.gz",
+                    "url": "https://github.com/syphon-org/syphon/releases/download/0.2.14/syphon.linux.0.2.14.x64.tar.gz",
                     "dest": "syphon",
-                    "sha256": "8fde727a4826412c48f7930444529bda2deb6b1899b59e61b1fa8b722b60d5a1",
+                    "sha256": "dd31f0516bfccd8460c7bb4db33f24ffb6258a7817b0624dc35d8c0abb1023c6",
                     "x-checker-data": {
                         "type": "json",
                         "is-main-source": true,
@@ -76,7 +76,7 @@
                         "version-query": ".tag_name",
                         "tag-query": ".tag_name",
                         "timestamp-query": ".published_at",
-                        "url-query": ".assets[] | select(.name | test(\"^syphon.linux.x64\")) | .browser_download_url"
+                        "url-query": ".assets[] | select(.name | test(\"^syphon.linux.*.x64.tar.gz\")) | .browser_download_url"
                     }
                 },
                 {
