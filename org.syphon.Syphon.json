@@ -1,7 +1,7 @@
 {
     "app-id": "org.syphon.Syphon",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "43",
+    "runtime-version": "44",
     "sdk": "org.gnome.Sdk",
     "command": "syphon",
     "separate-locales": false,
@@ -41,7 +41,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.matrix.org/matrix-org/olm.git",
-                    "tag": "3.2.9"
+                    "tag": "3.2.14"
                 }
             ]
         },

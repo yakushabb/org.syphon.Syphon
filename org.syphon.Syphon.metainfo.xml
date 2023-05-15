@@ -13,7 +13,7 @@
     <control>keyboard</control>
     <control>touch</control>
   </recommends>
-  <developer_name>Taylor Ereio</developer_name>
+  <developer_name>Syphon Organization, LLC</developer_name>
   <description>
     <p>Syphon aims to be built on the foundations of privacy, branding, and user experience in an effort to pull others away from proprietary chat clients to the matrix protocol.</p>
 
